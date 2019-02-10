@@ -2,7 +2,7 @@
 
 # Info
 A Simple Snake Game Using Java And Eclipse
-Estimated TimeIt Took To Make: 3 Or 4 Days
+Estimated Time It Took To Make: 3 Or 4 Days
 
 # Links And Other Snake Games If You Don't Have Java And/Or Don't Know How To Run Java Files
 Browser Game (Not Mine): https://www.gameofsnakes.com
