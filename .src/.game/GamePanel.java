@@ -219,7 +219,7 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 		g2d.setColor(Color.RED);
 		apple.render(g2d);
 		if(gameover) {
-			g2d.drawString("Game Over!", 150, 200);
+			g2d.drawString("Game Over Please Go to Next Station!", 150, 200);
 		}
 
 		g2d.setColor(Color.WHITE);
