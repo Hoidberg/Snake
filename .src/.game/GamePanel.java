@@ -15,15 +15,16 @@ import javax.swing.JPanel;
 public class GamePanel extends JPanel implements Runnable, KeyListener {
 
 	//These are like a team they can't work without eachother
-	public static final int WIDTH = 400;
-	public static final int HEIGHT = 400;
+	public static final int WIDTH = 400; //Initialize The Width As A Public Static Final Integer
+	public static final int HEIGHT = 400; //Initialize The Height As A Public Static Final Integer
+	//The Amount Of Pixels Displayed Is 160000px²
 	//Render
-	private Graphics2D g2d;
-	private BufferedImage image;
+	private Graphics2D g2d; //Initialize Graphics2D As g2d
+	private BufferedImage image; //Initialize BufferedImage As image
 	//Game Loop
-	private Thread thread;
-	private boolean running;
-	private long targetTime;
+	private Thread thread; //Initialize Thread As thread
+	private boolean running; //Create A Boolean Called running
+	private long targetTime; //Create A Long Variable Called targetTime 
 	
 	//Game Stuff
 	private final int SIZE = 10;
